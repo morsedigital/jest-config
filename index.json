@@ -1,0 +1,23 @@
+{
+  "browser": true,
+  "collectCoverageFrom": ["<rootDir>/src/**/*.{js,jsx}"],
+  "coveragePathIgnorePatterns": ["<rootDir>/node_modules/", "<rootDir>/__tests__/"],
+  "roots": [
+    "<rootDir>/__tests__/",
+    "<rootDir>/src/"
+  ],
+  "modulePaths": [
+    "<rootDir>/src/"
+  ],
+  "modulePathIgnorePatterns": [
+    "<rootDir>/lib/",
+    "<rootDir>/node_modules/"
+  ],
+  "setupTestFrameworkScriptFile": "@djforth/jest-matchers",
+  "testPathIgnorePatterns": [
+    "<rootDir>/lib",
+    "<rootDir>/node_modules",
+    "<rootDir>/bower_components"
+  ],
+  "verbose": true
+}

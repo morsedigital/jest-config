@@ -1,0 +1,17 @@
+{
+  "name": "@morsedigital/jest-config",
+  "version": "1.0.0",
+  "main": "index.json",
+  "repository": "git@github.com:morsedigital/jest-config.git",
+  "author": "Adrian Stainforth <adrian.stainforth@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@djforth/jest-matchers": "^1.0.1"
+  },
+  "devDependencies": {
+    "immutable": "^3.8.1",
+    "jest": "^19.0.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1"
+  }
+}
